@@ -1,12 +1,9 @@
-name: THIS IS MY FIRST GITHUB ACTION WORKFLOW
+name: my_own_workflow
 on: 
   push:
 jobs:
-  my_job_name:
+  githubworkflow:
     runs-on: ubuntu-latest
     steps:
-      - name: my first step
-        run: echo "Hello, this is my first message "
-
-
-    
+      -  name: step1_prints_text
+         run: echo "Hello GitHub Actions"
