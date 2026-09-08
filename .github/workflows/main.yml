@@ -5,11 +5,11 @@ jobs:
   githubworkflow:
     runs-on: ubuntu-latest
     steps:
-      -  name: print msg 1
-         run: echo "Welcome to GitHub Actions"
+      - name: print msg 1
+        run: echo "Welcome to GitHub Actions"
 
-      -  name: print message 2
-         run: echo "his is my first workflow"
+      - name: print message 2
+        run: echo "his is my first workflow"
 
-       -  name: print message 3
-          run: echo "Learning GitHub Actions"
+      - name: print message 3
+        run: echo "Learning GitHub Actions"
