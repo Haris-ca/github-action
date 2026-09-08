@@ -1,0 +1,12 @@
+name: THIS IS MY FIRST GITHUB ACTION WORKFLOW
+on: 
+  push:
+jobs:
+  my job name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my first step
+      run: echo "Hello, this is my first message "
+
+
+    
